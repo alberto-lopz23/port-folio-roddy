@@ -1,46 +1,108 @@
 body {
-  background: rgb(2 6 23);
-  color: rgb(226 232 240);
+  width: full;
+  background: rgb(244,192,236);
+background: linear-gradient(0deg, rgba(244,192,236,1) 0%, rgba(189,159,251,1) 100%);
+  
 }
 
-.sobre-mi {
-  width: 400px;
-  margin-left: 20%;
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 100px 1fr);
+  width: full;
+  margin-left: 10%;
 }
 
-.sobre-mi img {
+header img{
+  width: 100px;
+}
+
+.bio{
+  width: 800px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.bio .imagen  {
+  display: flex;
+  padding: 20px;
+  width: 600px;
+}
+
+.bio p{
+  margin-top: 15%;
+}
+.bio img{
   width: 200px;
-  margin-top: 30%;
-  border-radius: 999px;
+  padding: 20px;
+  border-radius: 99999px;
+
 }
 
-.sobre-mi span {
-  color: rgb(44 201 255);
+.title-american {
+  margin-top: 10%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
 }
-
-.mira {
-  margin-left: 40%;
-  margin-top: 10%
-}
-.proyectos {
+.american-style {
+  margin-left: 15%;
+  margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
   
-  margin-top: 20%;
-  margin-left: 10%;
-
 }
-
-.proyectos div {
-  width: 300px;
-  margin-left: 10%;
-}
-
-
-.proyectos img{
-  width: 300px;
+.american-style div{
+  width: 200px;
+  margin-left: 20px;
   border-radius: 20px;
+  background: RGBA(234, 234, 234, 0.5);
+  padding: 10px;
+  background: #fff;
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  color: #968484;
+}
+
+.american-style img{
+  width: 150px;
+  margin-left: 20px;
+  border-radius: 20px;
+
 }
 
 
+.title-community {
+  margin-top: 10%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+
+.AR-Community-description{
+  width: 800px;
+  margin-top: 0;
+  margin-left: 10%;
+}
+
+.AR-Community-description  {
+  display: flex;
+  padding: 20px;
+  width: 600px;
+}
+
+.AR-Community-description p {
+  margin-top: 10%;
+}
+
+ .AR-Community-description span{
+  color: rgb(118 68 221);
+ }
+.AR-Community-description img {
+  border-radius: 9999px;
+  padding: 20px;
+  width: 200px;
+}
 
