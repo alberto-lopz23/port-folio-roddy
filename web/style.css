@@ -1,0 +1,46 @@
+body {
+  background: rgb(2 6 23);
+  color: rgb(226 232 240);
+}
+
+.sobre-mi {
+  width: 400px;
+  margin-left: 20%;
+}
+
+.sobre-mi img {
+  width: 200px;
+  margin-top: 30%;
+  border-radius: 999px;
+}
+
+.sobre-mi span {
+  color: rgb(44 201 255);
+}
+
+.mira {
+  margin-left: 40%;
+  margin-top: 10%
+}
+.proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin-top: 20%;
+  margin-left: 10%;
+
+}
+
+.proyectos div {
+  width: 300px;
+  margin-left: 10%;
+}
+
+
+.proyectos img{
+  width: 300px;
+  border-radius: 20px;
+}
+
+
+
