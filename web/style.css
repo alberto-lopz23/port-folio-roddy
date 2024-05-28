@@ -1,25 +1,30 @@
+* {
+  text-decoration: none;
+}
+
 body {
   width: full;
   background: rgb(244,192,236);
 background: linear-gradient(0deg, rgba(244,192,236,1) 0%, rgba(189,159,251,1) 100%);
-  
 }
 
-header {
-  display: grid;
-  grid-template-columns: repeat(2, 100px 1fr);
-  width: full;
-  margin-left: 10%;
+.btn-american{
+  display: flex;
+  justify-content: end;
+  margin-right: 70px;
+  margin-top: 100px;
 }
 
-header img{
-  width: 100px;
+
+.btn-american a{
+  width: 20px;
+  margin: 20px;
 }
 
 .bio{
-  width: 800px;
-  margin-top: 10%;
-  margin-left: 10%;
+  width: 500px;
+  margin-left: 15%;
+  min-width: 500px;
 }
 
 .bio .imagen  {
@@ -30,6 +35,7 @@ header img{
 
 .bio p{
   margin-top: 15%;
+  min-width: 150px;
 }
 .bio img{
   width: 200px;
@@ -44,6 +50,7 @@ header img{
   display: flex;
   justify-content: center;
   font-size: 35px;
+  min-width: auto;
 }
 .american-style {
   margin-left: 15%;
@@ -54,14 +61,16 @@ header img{
 }
 .american-style div{
   width: 200px;
+  margin-top: 20px;
   margin-left: 20px;
   border-radius: 20px;
   background: RGBA(234, 234, 234, 0.5);
   padding: 10px;
-  background: #fff;
+  background: rgb(164, 144, 200);
   backdrop-filter: blur(1rem);
   -webkit-backdrop-filter: blur(1rem);
-  color: #968484;
+  color: #1a1a1a;
+  min-width: 200px;
 }
 
 .american-style img{
@@ -106,3 +115,26 @@ header img{
   width: 200px;
 }
 
+
+.cuentas h2{
+  margin-left: 45%;
+  color: rgb(65, 33, 110);
+}
+
+.cuentas-manejadas {
+  display: flex;
+  justify-content: center;
+}
+
+.cuentas-manejadas div{
+  width: 130px;
+  margin-left: 20px;
+  min-width: 100px;
+}
+
+.cuentas-manejadas div> img{
+  width: 100%;
+  height: auto;
+  opacity: .6;
+  margin: 20px;
+}
