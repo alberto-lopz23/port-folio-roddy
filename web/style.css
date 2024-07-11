@@ -145,6 +145,7 @@ body {
   margin-left: 0px;
   border-radius: 20px;
   transition: all .2s ease;
+  cursor: pointer;
 }
 
 .american-style img:hover{
@@ -186,7 +187,7 @@ body {
 
 @media screen and (max-width: 500px) {
   .tama {
-   width: 355px;
+   width: 350px;
    margin-left:12px ;
   }
 }
@@ -203,6 +204,7 @@ body {
   text-align: left; /* Alineación del texto centrada */
   margin-top: 10px; /* Espacio superior ajustado */
   margin-left: 10px;
+  width: 330px;
 }
 
 
@@ -266,5 +268,15 @@ body {
   transition: all .2s ease;
 
 }
+
+.cuentas-manejadas div> a> img:hover {
+  opacity: .9;
+}
+
+
+
+
+
+
 
 
