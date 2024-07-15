@@ -21,12 +21,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #001244;
+   color: #dfe5f5;
   }
 }
 
 @media screen and (max-width: 500px) {
   body {
    margin: 0;
+    background: #001244;
+   color: #dfe5f5;
   }
 }
 
