@@ -28,9 +28,13 @@ body {
 
 @media screen and (max-width: 500px) {
   body {
-   margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     background: #001244;
-   color: #dfe5f5;
+    color: #dfe5f5;
+
   }
 }
 
